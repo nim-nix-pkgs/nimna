@@ -11,7 +11,6 @@
   inputs.src-nimna-master.ref   = "refs/heads/master";
   inputs.src-nimna-master.owner = "mjendrusch";
   inputs.src-nimna-master.repo  = "nimna";
-  inputs.src-nimna-master.dir   = "";
   inputs.src-nimna-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
